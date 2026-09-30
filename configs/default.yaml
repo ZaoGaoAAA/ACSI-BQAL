@@ -1,0 +1,17 @@
+model:
+  channels: 256
+  acsi:
+    interaction_dim: 128
+    branch_specs:
+      - [3, 1]
+      - [3, 2]
+      - [3, 4]
+  bqal:
+    hidden_channels: 128
+    radius: 2
+    kappa: 4.0
+
+training:
+  quality_loss_weight: 0.5
+  random_seed: 42
+
