@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "acsi-bqal"
+version = "0.1.0"
+description = "Reference implementation of ACSI and BQAL for temporal action detection"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "Apache-2.0"}
+dependencies = ["torch>=2.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

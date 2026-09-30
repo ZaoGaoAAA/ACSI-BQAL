@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use ACSI-BQAL in your research, please cite the accompanying paper."
+title: "ACSI-BQAL for Temporal Action Detection"
+type: software
+authors:
+  - family-names: Dai
+    given-names: Jiashu
+  - family-names: Cao
+    given-names: Tao
+  - family-names: Hu
+    given-names: Yulu
+  - family-names: Li
+    given-names: Ruilong
+version: 0.1.0
+date-released: 2026-09-30
+repository-code: "https://github.com/ZaoGaoAAA/ACSI-BQAL"
+license: Apache-2.0
